@@ -8,7 +8,7 @@
 //2. Navigate to the directory where the file is located
 //3. Compile the code using the command: g++ insertionsort.cpp -o insertionsort
 //4. Run with an input file name as an argument: .\insertionsort input1.txt  (if no argument is provided type the file name when prompted)
-//5. The program will display the sorted numbers then the time taken to sor the numbers in microseconds
+//5. The program will display the sorted numbers then the time taken to sort the numbers in microseconds
 
 
 
