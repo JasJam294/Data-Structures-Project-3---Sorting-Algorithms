@@ -1,13 +1,13 @@
 //Jasmine Lawrence
 
-//Insertion Sort Algorithm: This algorithm will sort the unsorted list of integers in ascending order by swaping to the right and inserting elements in the correct position. 
+//Insertion Sort Algorithm: This algorithm will sort the unsorted array of integers in ascending order by swaping to the right and inserting elements in the correct position. 
 //IDE: Visual Studio Code, Hardware: Windows 11 laptop, Complier: g++ (MinGW-w64)
 
 //HOW TO RUN: 
 //1. Open the terminal in Visual Studio Code
 //2. Navigate to the directory where the file is located
 //3. Compile the code using the command: g++ insertionsort.cpp -o insertionsort
-//4. Run with an input file name as an argument: .\insertionsort input1.txt  (if no argument is provided type the file name when prompted)
+//4. Run with an input file name as an argument: .\insertionsort (enter input file name)  (if no argument is provided type the file name when prompted)
 //5. The program will display the sorted numbers then the time taken to sort the numbers in microseconds
 
 

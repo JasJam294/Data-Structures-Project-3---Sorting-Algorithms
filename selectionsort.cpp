@@ -1,5 +1,5 @@
 //Jasmine Lawrence
-//Selection Sort Algorithm: This will sort the unsorted list of integers by finding the smallest value in the array and swaping it with the current value. 
+//Selection Sort Algorithm: This will sort the unsorted array of integers by finding the smallest value in the array and swaping it with the current value. 
 //IDE: Visual Studio Code, Hardware: Windows 11 laptop, Complier: g++ (MinGW-w64)
 
 
@@ -7,7 +7,7 @@
 //1. Open the terminal in Visual Studio Code
 //2. Navigate to the directory where the file is located
 //3. Compile the code using the command: g++ selectionsort.cpp -o selectionsort
-//4. Run with an input file name as an argument: .\selectionsort input1.txt  (if no argument is provided type the file name when prompted)
+//4. Run with an input file name as an argument: .\selectionsort (enter input file name)  (if no argument is provided type the file name when prompted)
 //5. The program will display the sorted numbers then the time taken to sort the numbers in microseconds
 
 
