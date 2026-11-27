@@ -6,14 +6,13 @@
 
 //HOW TO RUN: 
 //1. Open the terminal in Visual Studio Code
-//2. Navigate to the directory where the file is located
+//2. Navigate to the directory where the file is located using Input Generator to create input files
 //3. Compile the code using the command: g++ quicksort.cpp -o quicksort
 //4. Run with an input file name as an argument: .\quicksort (enter input file name) - (if no argument is provided type the file name when prompted)
 //5. The program will display the sorted numbers then the time taken to sort the numbers in microseconds
 
 //RANDOM PIVOTING IDEA: The program will randomly select between a range inside the first and last element of the array as the pivot. 
 // This ensures the pivot is random and we can avoid the worst case scenario which could lead to an O(n^2) time complexity.
-
 
 
 #include <iostream>
@@ -89,7 +88,6 @@ auto start = chrono::high_resolution_clock::now();                              
 quickSort(numbers, 0, numbers.size() - 1);                                                //calls the quick sort function to run
 auto stop = chrono::high_resolution_clock::now();                                      //stops the timer
 auto duration = chrono::duration_cast<chrono::microseconds>(stop - start);              //calculates the duration of the sorting process in microseconds
-cout << "Time take by quick sort: " << duration.count() << "microseconds" << endl;    //displays the time taken to sort the numbers
 
 for (int i = 0; i < numbers.size(); i++) {
   cout << numbers[i];                                                                     //prints the sorted numbers 

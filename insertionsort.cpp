@@ -5,7 +5,7 @@
 
 //HOW TO RUN: 
 //1. Open the terminal in Visual Studio Code
-//2. Navigate to the directory where the file is located
+//2. Navigate to the directory where the file is located using Input Generator to create input files
 //3. Compile the code using the command: g++ insertionsort.cpp -o insertionsort
 //4. Run with an input file name as an argument: .\insertionsort (enter input file name)  (if no argument is provided type the file name when prompted)
 //5. The program will display the sorted numbers then the time taken to sort the numbers in microseconds
@@ -63,7 +63,6 @@ auto start = chrono::high_resolution_clock::now();                              
 insertionSort(numbers);                                                                //calls the insertion sort function to run
 auto stop = chrono::high_resolution_clock::now();                                      //stops the timer
 auto duration = chrono::duration_cast<chrono::microseconds>(stop - start);              //calculates the duration of the sorting process in microseconds
-cout << "Time take by insertion sort: " << duration.count() << "microseconds" << endl;    //displays the time taken to sort the numbers
 
 for (int i = 0; i < numbers.size(); i++) {
   cout << numbers[i];                                                                     //prints the sorted numbers 

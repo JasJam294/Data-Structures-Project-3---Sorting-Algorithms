@@ -1,5 +1,6 @@
 //Jasmine Lawrence
 
+//Input Generator
 //Generates a text file to be used as input for the sorting algorithms. 
 //IDE: Visual Studio Code, Hardware: Windows 11 laptop, Complier: g++ (MinGW-w64)
 //HOW TO RUN: Compile the code using the command in the terminal: g++ inputgenerator.cpp -o inputgenerator
